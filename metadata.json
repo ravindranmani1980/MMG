@@ -1,0 +1,6 @@
+{
+  "name": "Marketing Materials Generator",
+  "description": "Automatically generates custom social media campaign templates across platforms, tailoring visual layouts and copy to specific audiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
