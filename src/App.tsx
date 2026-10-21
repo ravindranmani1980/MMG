@@ -254,10 +254,29 @@ export default function App() {
       </main>
 
       {/* Footer info bar */}
-      <footer className="border-t border-slate-800/80 bg-slate-950 py-4 px-4 lg:px-8 text-center text-xs text-slate-500">
+      <footer className="border-t border-slate-800/80 bg-slate-950 py-5 px-4 lg:px-8 text-center text-xs text-slate-400 space-y-1.5">
         <p>
-          Marketing Materials Generator • Tailored visual dimensions & A/B testing ad sets for Facebook, Instagram, LinkedIn, and Twitter • Branded with{' '}
-          <strong className="text-slate-400">{campaign.brandKit.logoName}</strong> Brand Kit
+          Created by{' '}
+          <a
+            href="https://ravindran.in"
+            target="_blank"
+            rel="noreferrer"
+            className="font-bold text-white hover:text-indigo-400 transition-colors inline-flex items-center gap-1 underline underline-offset-4 decoration-indigo-500/50"
+          >
+            Mani Ravindran
+          </a>{' '}
+          •{' '}
+          <a
+            href="https://ravindran.in"
+            target="_blank"
+            rel="noreferrer"
+            className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"
+          >
+            ravindran.in
+          </a>
+        </p>
+        <p className="text-[11px] text-slate-500">
+          Marketing Materials Generator • Multi-platform ad sets & A/B testing suite for Meta, LinkedIn, X, TikTok & Pinterest
         </p>
       </footer>
 

@@ -32,13 +32,24 @@ export const Header: React.FC<HeaderProps> = ({
               M
             </div>
             <div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <h1 className="text-base font-bold text-white tracking-tight">
                   Marketing Materials Generator
                 </h1>
                 <span className="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
                   <Sparkles className="w-3 h-3" /> Multi-Platform & A/B Suite
                 </span>
+                <a
+                  href="https://ravindran.in"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[11px] font-medium bg-slate-800/80 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-750 transition-colors"
+                >
+                  <span className="text-slate-400">by</span>
+                  <span className="font-semibold text-slate-200">Mani Ravindran</span>
+                  <span className="text-slate-500">•</span>
+                  <span className="text-indigo-400 hover:underline">ravindran.in</span>
+                </a>
               </div>
               <p className="text-xs text-slate-400 hidden sm:block">
                 Generate tailored ad sets, layout dimensions & A/B copy for Facebook, Instagram, LinkedIn & X

@@ -252,7 +252,7 @@ export const DEFAULT_BRAND_KIT: BrandKit = {
   headingFont: 'Plus Jakarta Sans',
   bodyFont: 'Inter',
   brandVoice: 'authoritative',
-  companyDomain: 'getaura.com',
+  companyDomain: 'ravindran.in',
 };
 
 /**

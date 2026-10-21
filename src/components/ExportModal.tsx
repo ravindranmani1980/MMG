@@ -24,6 +24,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
   const generateMarkdownReport = () => {
     let md = `# Marketing Campaign & Ad Sets: ${campaign.productName}\n`;
+    md += `**Author**: Mani Ravindran ([ravindran.in](https://ravindran.in))\n`;
     md += `**Brand Kit**: ${campaign.brandKit.logoName} (${campaign.brandKit.companyDomain})\n`;
     md += `**Generated**: ${new Date(campaign.timestamp).toLocaleDateString()}\n`;
     md += `**Strategy Summary**: ${campaign.summary}\n\n`;
